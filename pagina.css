@@ -1,0 +1,30 @@
+/* pseudoclasses e pseudoelementos*/
+
+.surpresa{
+background-color: darkcyan;
+padding: 30px;
+width: 300px;
+}
+
+.surpresa > p { /*Tudo isso está dentro de uma DIV que é como o pai ou a mãe e o conteudo de dentro (h3 e P) são seus filhos. Quando colocamos > (alguma tag) mostra que queremos mexer com o conteudo dentro da div*/
+    display: none;
+}
+
+.surpresa:hover > p{
+
+    display: inline;
+}
+
+.surpresa:hover{
+
+    background-color: pink;
+}
+
+img {
+    width: 500px;
+}
+
+img:hover{
+    width: 800px;
+
+}

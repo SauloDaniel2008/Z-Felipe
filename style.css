@@ -11,7 +11,7 @@ body{
     padding: 10px; /* Espaçamento entra os lados*/
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -29,7 +29,7 @@ a{
     color: darkgreen;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 100;
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
@@ -45,7 +45,21 @@ a{
 #Paragrafo{
     font-family: "Zalando Sans Expanded", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 100;
   font-style: normal; /*Escolhe o conjunto da fonte que meu texto terá*/
+    font-size: 2em; /*Font-size é o tamanho da letra, 16px é igual a 1EM que é o tamanho "comum" de letras. A diferença é que o EM se adapta para o celular*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
